@@ -1,0 +1,25 @@
+using MassTransit;
+using Payment.API.Consumers;
+using Shared;
+using Shared.Events;
+
+var builder = WebApplication.CreateBuilder(args);
+
+
+
+builder.Services.AddMassTransit(configurator =>
+{
+    configurator.AddConsumer<StockReservedEventConsumer>();
+    configurator.UsingRabbitMq((context, _configure) =>
+    {
+        _configure.Host(builder.Configuration["RabbitMQ"]);
+
+        _configure.ReceiveEndpoint(RabbitMQSettings.Payment_StockResevedEventQueue, e=> e.ConfigureConsumer<StockReservedEventConsumer>(context));
+    });
+});
+
+
+var app = builder.Build();
+
+
+app.Run();

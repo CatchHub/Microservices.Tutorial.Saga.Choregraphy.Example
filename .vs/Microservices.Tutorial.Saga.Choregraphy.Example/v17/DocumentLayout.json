@@ -1,0 +1,266 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\umut.yilmaz\\Desktop\\personal\\Microservices\\Microservices.Tutorial.Saga.Choregraphy.Example\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB71F29-B8F9-4C7A-9723-6B4EAA0EF044}|Stock.API\\Stock.API.csproj|c:\\users\\umut.yilmaz\\desktop\\personal\\microservices\\microservices.tutorial.saga.choregraphy.example\\stock.api\\consumers\\paymentfailedeventconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BB71F29-B8F9-4C7A-9723-6B4EAA0EF044}|Stock.API\\Stock.API.csproj|solutionrelative:stock.api\\consumers\\paymentfailedeventconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD740CBF-6414-4087-892E-1C87A785270A}|Payment.API\\Payment.API.csproj|c:\\users\\umut.yilmaz\\desktop\\personal\\microservices\\microservices.tutorial.saga.choregraphy.example\\payment.api\\consumers\\stockreservedeventconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD740CBF-6414-4087-892E-1C87A785270A}|Payment.API\\Payment.API.csproj|solutionrelative:payment.api\\consumers\\stockreservedeventconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB71F29-B8F9-4C7A-9723-6B4EAA0EF044}|Stock.API\\Stock.API.csproj|c:\\users\\umut.yilmaz\\desktop\\personal\\microservices\\microservices.tutorial.saga.choregraphy.example\\stock.api\\consumers\\ordercreatedeventconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BB71F29-B8F9-4C7A-9723-6B4EAA0EF044}|Stock.API\\Stock.API.csproj|solutionrelative:stock.api\\consumers\\ordercreatedeventconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD740CBF-6414-4087-892E-1C87A785270A}|Payment.API\\Payment.API.csproj|c:\\users\\umut.yilmaz\\desktop\\personal\\microservices\\microservices.tutorial.saga.choregraphy.example\\payment.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD740CBF-6414-4087-892E-1C87A785270A}|Payment.API\\Payment.API.csproj|solutionrelative:payment.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{199F05B2-09C0-4F49-86CA-54C8C7B9C907}|Order.API\\Order.API.csproj|c:\\users\\umut.yilmaz\\desktop\\personal\\microservices\\microservices.tutorial.saga.choregraphy.example\\order.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{199F05B2-09C0-4F49-86CA-54C8C7B9C907}|Order.API\\Order.API.csproj|solutionrelative:order.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{199F05B2-09C0-4F49-86CA-54C8C7B9C907}|Order.API\\Order.API.csproj|c:\\users\\umut.yilmaz\\desktop\\personal\\microservices\\microservices.tutorial.saga.choregraphy.example\\order.api\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{199F05B2-09C0-4F49-86CA-54C8C7B9C907}|Order.API\\Order.API.csproj|solutionrelative:order.api\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB71F29-B8F9-4C7A-9723-6B4EAA0EF044}|Stock.API\\Stock.API.csproj|c:\\users\\umut.yilmaz\\desktop\\personal\\microservices\\microservices.tutorial.saga.choregraphy.example\\stock.api\\models\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BB71F29-B8F9-4C7A-9723-6B4EAA0EF044}|Stock.API\\Stock.API.csproj|solutionrelative:stock.api\\models\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BB71F29-B8F9-4C7A-9723-6B4EAA0EF044}|Stock.API\\Stock.API.csproj|c:\\users\\umut.yilmaz\\desktop\\personal\\microservices\\microservices.tutorial.saga.choregraphy.example\\stock.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4BB71F29-B8F9-4C7A-9723-6B4EAA0EF044}|Stock.API\\Stock.API.csproj|solutionrelative:stock.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 26,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1252958643:0:{cdd0b6de-605d-48f6-81be-48439c24f32b}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1731860990:0:{cdd0b6de-605d-48f6-81be-48439c24f32b}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1219954849:0:{cdd0b6de-605d-48f6-81be-48439c24f32b}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StockReservedEventConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\umut.yilmaz\\Desktop\\personal\\Microservices\\Microservices.Tutorial.Saga.Choregraphy.Example\\Payment.API\\Consumers\\StockReservedEventConsumer.cs",
+              "RelativeDocumentMoniker": "Payment.API\\Consumers\\StockReservedEventConsumer.cs",
+              "ToolTip": "C:\\Users\\umut.yilmaz\\Desktop\\personal\\Microservices\\Microservices.Tutorial.Saga.Choregraphy.Example\\Payment.API\\Consumers\\StockReservedEventConsumer.cs",
+              "RelativeToolTip": "Payment.API\\Consumers\\StockReservedEventConsumer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T06:00:01.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\umut.yilmaz\\Desktop\\personal\\Microservices\\Microservices.Tutorial.Saga.Choregraphy.Example\\Payment.API\\Program.cs",
+              "RelativeDocumentMoniker": "Payment.API\\Program.cs",
+              "ToolTip": "C:\\Users\\umut.yilmaz\\Desktop\\personal\\Microservices\\Microservices.Tutorial.Saga.Choregraphy.Example\\Payment.API\\Program.cs",
+              "RelativeToolTip": "Payment.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T05:53:16.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\umut.yilmaz\\Desktop\\personal\\Microservices\\Microservices.Tutorial.Saga.Choregraphy.Example\\Order.API\\Models\\OrderItem.cs",
+              "RelativeDocumentMoniker": "Order.API\\Models\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\umut.yilmaz\\Desktop\\personal\\Microservices\\Microservices.Tutorial.Saga.Choregraphy.Example\\Order.API\\Models\\OrderItem.cs",
+              "RelativeToolTip": "Order.API\\Models\\OrderItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T05:36:07.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\umut.yilmaz\\Desktop\\personal\\Microservices\\Microservices.Tutorial.Saga.Choregraphy.Example\\Order.API\\Program.cs",
+              "RelativeDocumentMoniker": "Order.API\\Program.cs",
+              "ToolTip": "C:\\Users\\umut.yilmaz\\Desktop\\personal\\Microservices\\Microservices.Tutorial.Saga.Choregraphy.Example\\Order.API\\Program.cs",
+              "RelativeToolTip": "Order.API\\Program.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T05:33:59.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PaymentFailedEventConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\umut.yilmaz\\Desktop\\personal\\Microservices\\Microservices.Tutorial.Saga.Choregraphy.Example\\Stock.API\\Consumers\\PaymentFailedEventConsumer.cs",
+              "RelativeDocumentMoniker": "Stock.API\\Consumers\\PaymentFailedEventConsumer.cs",
+              "ToolTip": "C:\\Users\\umut.yilmaz\\Desktop\\personal\\Microservices\\Microservices.Tutorial.Saga.Choregraphy.Example\\Stock.API\\Consumers\\PaymentFailedEventConsumer.cs",
+              "RelativeToolTip": "Stock.API\\Consumers\\PaymentFailedEventConsumer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T05:25:23.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Stock.cs",
+              "DocumentMoniker": "C:\\Users\\umut.yilmaz\\Desktop\\personal\\Microservices\\Microservices.Tutorial.Saga.Choregraphy.Example\\Stock.API\\Models\\Stock.cs",
+              "RelativeDocumentMoniker": "Stock.API\\Models\\Stock.cs",
+              "ToolTip": "C:\\Users\\umut.yilmaz\\Desktop\\personal\\Microservices\\Microservices.Tutorial.Saga.Choregraphy.Example\\Stock.API\\Models\\Stock.cs",
+              "RelativeToolTip": "Stock.API\\Models\\Stock.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T05:17:54.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderCreatedEventConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\umut.yilmaz\\Desktop\\personal\\Microservices\\Microservices.Tutorial.Saga.Choregraphy.Example\\Stock.API\\Consumers\\OrderCreatedEventConsumer.cs",
+              "RelativeDocumentMoniker": "Stock.API\\Consumers\\OrderCreatedEventConsumer.cs",
+              "ToolTip": "C:\\Users\\umut.yilmaz\\Desktop\\personal\\Microservices\\Microservices.Tutorial.Saga.Choregraphy.Example\\Stock.API\\Consumers\\OrderCreatedEventConsumer.cs",
+              "RelativeToolTip": "Stock.API\\Consumers\\OrderCreatedEventConsumer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T05:17:27.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\umut.yilmaz\\Desktop\\personal\\Microservices\\Microservices.Tutorial.Saga.Choregraphy.Example\\Stock.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Stock.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\umut.yilmaz\\Desktop\\personal\\Microservices\\Microservices.Tutorial.Saga.Choregraphy.Example\\Stock.API\\appsettings.json",
+              "RelativeToolTip": "Stock.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-22T04:46:49.946Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 83,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{4a9b7e51-aa16-11d0-a8c5-00a0c921a4d2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
